@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+
     
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -12,19 +20,150 @@
         extend: {
           colors: {
             clifford: '#da373d',
+            'text-red': '#FF4240',
           }
         }
       }
     }
   </script>
+<style>
 
+.font-manrope{
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+</style>
 
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hocky Club</title>
 </head>
-<body>
-    
+<body class="font-manrope">
+  <header class="">
+
+
+
+
+
+    <nav>
+     <div class="container mx-auto"> 
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base font-medium">
+              <li><a><span class="text-text-red">Home</span></a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>bolg</a></li>
+              <li><a>contacts</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl p-0 m-0 lg:text-4xl font-extrabold">Hockey<span class="text-text-red">'</span>S</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-base font-medium">
+            <li><span class="text-text-red">Home</span></a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>bolg</a></li>
+            <li><a>contacts</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end space-x-4">
+          <img class="" src="Frame.svg" alt="">
+          <button class="btn btn-error text-white">Get Tickets</button>
+        </div>
+      </div>
+      
+    </nav>
+
+    <div class="container mx-auto">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="banner.png" class="w-full h-[50vh] lg:h-[70vh]" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="hockey-players.jpg" class="w-full h-[50vh] lg:h-[70vh]" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="goal-keeprs.jpg" class="w-full h-[50vh] lg:h-[70vh]"  />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full h-[50vh] lg:h-[70vh]">
+          <img src="hockey-ice-rink-sport-arena-empty-field-stadium-created-using-generative-ai.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- black badge -->
+
+
+
+    <div class="lg:container lg:mx-auto lg:-translate-y-48 lg:translate-x-80 lg:h-[150px] lg:w-[500px] lg:py-6  bg-[#131318] text-white px-8 py-4 rounded-lg drop-shadow-lg">
+      <h3 class="text-2xl font-extrabold ">
+        Meet all the heroes from the field
+      </h3>
+      <p class="text-base font-semibold ">
+        On the hockey field, where blades dance and goals echo, meet heroes crafting victories with skill, determination, and indomitable spirit.
+      </p>
+    </div>
+
+
+
+
+
+  </header>
+
+
+<!-- main section -->
+
+  <main>
+
+ 
+    <section class="container mx-auto mb-10 space-y-3 px-4 py-10 flex flex-col  justify-center items-center border-t-2 border-b-2 border-dashed rounded-lg drop-shadow-lg">
+      <div>
+        <h2 class=" text-2xl lg:text-4xl font-extrabold">
+          Professional Hockeys Club
+        </h2>
+      </div>
+      <div>
+        <p class="text-base font-medium p-4 text-center">
+          Dedicated professionals at the hockey club excel with teamwork, skill, and passion for the glorious sport.
+        </p>
+
+      </div>
+    </section>
+
+
+
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+  
 </body>
 </html>
